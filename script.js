@@ -6,8 +6,10 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "হ্যাঁ, আমিও তোমাকে পছন্দ করি তুমি কি আমাকে ভালোবাসো?";
-  gif.src =
-    "https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/gif.webp";
+  gif.src = "https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/gif.webp";
+  
+  // Open a link when yes button is clicked
+  window.location.href = "https://facebook.com/Imran.Ahmed099"; // Replace with your desired URL
 });
 
 noBtn.addEventListener("mouseover", () => {
