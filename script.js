@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Aaaaa, I like you too";
+  question.innerHTML = "হ্যাঁ, আমিও তোমাকে পছন্দ করি";
   gif.src =
     "https://raw.githubusercontent.com/MR-IMRAN-60/ImranBypass/refs/heads/main/gif.webp";
 });
